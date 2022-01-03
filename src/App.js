@@ -9,6 +9,7 @@ import Footer from './Components/Footer'
 // Views
 import Contact from './Views/Contact'
 import Home from './Views/Home'
+import Works from './Views/Works'
 
 const App = () => {
   return(
@@ -16,8 +17,9 @@ const App = () => {
       <Router>
         <Nav />
         <Routes>
-          <Route path='/' exact element={<Home />} />
+          <Route path='/portfolio' exact element={<Home />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/works' element={<Works />} />
         </Routes>
         <Footer />
       </Router>
