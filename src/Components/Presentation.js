@@ -39,10 +39,9 @@ const Presentation = () => {
                             <li>GitLab</li>
                             <li>GitHub</li>
                             <li>Terminal</li>
-
                         </ul>
                     </div>
-                    <div className='col s12 m6 l6 el6'>
+                    <div className='col s12 m12 l6 el6'>
                         <i className="fas fa-server fa-2x" style={{ color: '#1a237e', marginTop: '2rem'}}></i>
                         <h4>Back-end</h4>
                         <p>I like to create APIs from scratch</p>
@@ -56,7 +55,6 @@ const Presentation = () => {
                             <li>WebPack</li>
                             <li>MySQL</li>
                             <li>Terminal</li>
-
                         </ul>
                     </div>
                 </div>

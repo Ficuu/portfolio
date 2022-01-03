@@ -1,23 +1,28 @@
 import React from 'react'
-import { BrowserRouter as Router } from 'react-router-dom';
-import './App.css';
-import Footer from './Components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import './App.css'
 
-import Nav from './Components/Nav';
-import Presentation from './Components/Presentation';
-import Section from './Components/Section';
+// Components
+import Nav from './Components/Nav'
+import Footer from './Components/Footer'
+
+// Views
+import Contact from './Views/Contact'
+import Home from './Views/Home'
 
 const App = () => {
   return(
     <>
       <Router>
         <Nav />
-        <Section />
-        <Presentation />
+        <Routes>
+          <Route path='/' exact element={<Home />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
         <Footer />
       </Router>
     </>
   )
 }
 
-export default App;
+export default App

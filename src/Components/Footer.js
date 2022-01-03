@@ -20,7 +20,7 @@ const Footer = () => {
                                 <h5 className="white-text">Social links</h5>
                                 <ul>
                                     <li>
-                                        <i class="fab fa-linkedin" >
+                                        <i className="fab fa-linkedin" >
                                             <a 
                                                 style={{marginLeft: '6px'}}
                                                 className="grey-text text-lighten-3 " 
@@ -32,7 +32,7 @@ const Footer = () => {
                                         </i>
                                     </li>
                                     <li>
-                                        <i class="fab fa-github" >
+                                        <i className="fab fa-github" >
                                             <a 
                                                 style={{marginLeft: '6px'}}
                                                 className="grey-text text-lighten-3" 
@@ -44,7 +44,7 @@ const Footer = () => {
                                         </i>
                                     </li>
                                     <li>
-                                        <i class="fab fa-whatsapp" >
+                                        <i className="fab fa-whatsapp" >
                                             <a 
                                                 style={{marginLeft: '6px'}}
                                                 className="grey-text text-lighten-3" 
@@ -56,7 +56,7 @@ const Footer = () => {
                                         </i>
                                     </li>
                                     <li>
-                                        <i class="fab fa-instagram" >
+                                        <i className="fab fa-instagram" >
                                             <a 
                                                 style={{marginLeft: '6px'}}
                                                 className="grey-text text-lighten-3" 
