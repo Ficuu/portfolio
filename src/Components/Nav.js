@@ -10,6 +10,7 @@ const Nav = () => {
             <nav>
                 <div className="nav-wrapper black">
                     <ul className="right">
+                        <li><Link to={'/portfolio'}>Index</Link></li>
                         <li><Link to={'/works'}>Works</Link></li>
                         <li><Link to={'/contact'}>Contact</Link></li>
                     </ul>

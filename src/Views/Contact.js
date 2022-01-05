@@ -74,6 +74,7 @@ const Contact = () => {
                                 className='btn indigo darken-4' 
                                 style={{ borderRadius: '10%' }} 
                                 onClick={main()}
+                                disabled
                             >
                                 SEND
                             </button>
