@@ -2,6 +2,7 @@ import React from 'react'
 import CV from '../assets/documents/FACUNDO PAEZ.pdf'
 
 
+
 const Footer = () => {
     return (
         <div>
